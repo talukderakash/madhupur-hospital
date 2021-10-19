@@ -23,12 +23,13 @@ const Servise2 = () =>{
     <Card>
       <Card.Img variant="top w-100" src={service.images} />
       <Card.Body>
-        <Card.Title>Class Name: {service.className}</Card.Title>
+        <Card.Title>Name: {service.className}</Card.Title>
         <Card.Text>
           <p>Tution Fee: {service.tuitionFees}</p>
           <p>Subject name: {service.Subject}</p>
           <p>Class Time: {service.ClassTime}</p>
           <p>HomeWork: {service.HomeWork}</p>
+          
         </Card.Text>
       </Card.Body>
     </Card>
